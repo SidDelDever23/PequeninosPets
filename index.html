@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css" />
+   
+    <!--! -- Fonte Icones - Font-awesome-->
+     
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+  
+
+    <title>Pequeninos PetShop</title>
+  
+</head>
+<body>
+<header>
+    <!--Barra de navegação-->
+    <div class=" header-bar container-fluid">
+        <nav class="fluid navbarcolor navbar navbar-expand-lg navbar-light fixed-top">
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <img href="#" class="Logomarca" src="img/logo.png" alt="Logomarca">
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                    Cães
+                </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Rações</a>
+                    <a class="dropdown-item" href="#">Petiscos e Acessórios</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Farmácia</a>
+                  </div>
+                
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                        Gatos
+                    </a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Rações</a>
+                        <a class="dropdown-item" href="#">Petiscos e Acessórios</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Farmácia</a>
+                      </div>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Pássaros
+                        </a>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Alimentação</a>
+                            <a class="dropdown-item" href="#">Gaiolas e Viveiros</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Farmácia</a>
+                          </div>
+
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                Peixes
+                            </a>
+                              <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Alimentação</a>
+                                <a class="dropdown-item" href="#">Aguários e Beteiras</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Farmácia</a>
+                              </div>
+
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                    Outros Pets
+                                </a>
+                                  <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Coelhos</a>
+                                    <a class="dropdown-item" href="#">Calopsita</a>
+                                    <a class="dropdown-item" href="#">Hamster e Twister</a>
+                                  </div>
+              </ul>
+              
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar na Ppets" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+              </form>
+            </div>
+          </nav>
+
+    </div>
+
+    <!--Carousel-->
+
+    
+
+        <div id="carouselExampleIndicators" class="header-color carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="header-carousel carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/banner1.jpg" class="d-block w-100" alt="Oferta1">
+              </div>
+              <div class="carousel-item">
+                <img src="img/banner2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/banner3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </button>
+          </div>
+    
+<!--Ofertas em Card-->
+
+<div class="container, tamanho-pb">
+  
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card card-img card-header">
+          <img src="Produtos/racao01.PNG" class="img-tamanho d-block" alt="Oferta 1">
+          <div class="card-body">
+            <h4>Ração Premier Raças Específicas para Golden Retriever</h4>
+            <h5>R$ 49,90 </h5>
+            <div class="card-footer">
+              <h5>30% off</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card card-img card-header">
+          <img src="Produtos/racao02.PNG" class="img-tamanho d-block" alt="Oferta 2">
+          <div class="card-body">
+            <h4>Ração Golden Special para Cães Adultos Sabor Frango e Carne</h4>
+            <h5>R$ 49,90 </h5>
+            <div class="card-footer">
+              <h5>30% off</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card card-img card-header">
+          <img src="Produtos/racao03.PNG" class="img-tamanho d-block" alt="Oferta 3">
+          <div class="card-body">
+            <h4> <em> Super Oferta</em> - Areia  Higiênica  Pipicat  Multicat  para  Gatos  -   12 kg</h4>
+            <h5>R$ 49,90 </h5>
+            <div class="card-footer">
+              <h5>30% off</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card card-img card-header">
+          <img src="Produtos/racao04.PNG" class="img-tamanho d-block" alt="Oferta 4">
+          <div class="card-body">
+            <h4>Ração GranPlus Choice para Gatos Adultos Sabor Frango e Carne 10,1kg</h4>
+            <h5>R$ 49,90 </h5>
+            <div class="card-footer">
+              <h5>30% off</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+</div> 
+<!--rodapé-->
+
+<div class="container, tamanho-cinza">
+  
+  <div class="row">
+    <div class="col-md-auto">
+      <i class=" head-icon fas fa-store"> </i>
+    </div>
+    <div class="col-md-auto">
+      <h3>ATÉ 5x SEM JUROS</h3>
+      <h4> Até 10x com juros</h4>
+    </div>   
+
+    <div class="col-md-auto">
+      <i class=" head-icon fas fa-truck-loading"> </i>
+    </div>
+    <div class="col-md-auto">
+      <h3>Entrega rápida</h3>
+      <h4> Sua encomenda entregue em até 24hs</h4>
+    </div>   
+
+    <div class="col-md-auto">
+      <i class=" head-icon fab fa-whatsapp"> </i>
+    </div>
+    <div class="col-md-auto">
+      <h3>Compre Pelo Whatsapp</h3>
+      <h4> (81)9999-9999</h4>
+    </div>
+    
+    <div class="col-md-auto">
+      <h3>Cadastre-se em nossa Newsletter</h3>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Email" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Enviar</button>
+      </form>
+      
+    </div>
+        
+    
+
+        
+    </div>
+  </div>
+      
+</div>
+</header>
+
+<!--Dados Finais-->
+
+<footer class="tamanhopadding-Color">
+  <i class="icon-layout social-icon fa-brands fa-facebook-f"></i>
+  <i class="icon-layout social-icon fa-brands fa-twitter"></i>
+  <i class="icon-layout social-icon fa-brands fa-instagram"></i>
+  <i class="icon-layout social-icon fa-solid fa-envelope"></i>
+
+  <p>© Copyright 2023 | Pequeninos PetShop | SidDev | </p>
+
+    
+</footer>
+
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

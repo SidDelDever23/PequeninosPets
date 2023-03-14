@@ -1,0 +1,92 @@
+/* Nav bar */
+.navbarcolor{
+    background-color: #fff112;
+
+}
+.Logomarca{
+    width: 10%;
+    
+}
+.header-bar{
+    margin: 0;
+    padding: 0;
+}
+
+/*Carousel */
+
+.header-color{
+    margin-top: 20px;
+    background-color: #6fc0ef;
+    padding: 3% 15%;
+    
+}
+
+#carouselExampleIndicators{
+    padding-top: 120px;
+}
+
+/* Ofertas-card*/
+
+.oferta-pb{
+    padding: 3% 10%;
+    text-align: center;
+    background-color: #c6c2c2;
+    
+   
+}
+
+.img-tamanho{
+    width: 7rem;
+    align-items: center;
+  
+}
+.card-img{
+    text-align: center;
+    align-items: center;
+    background-color: #ffff;
+}
+.tamanho-pb{
+    background-color: #edf1f3;
+    padding: 3% 10%;
+}
+
+/* Barra final */
+.head-icon{
+    font-size: 60px;
+    text-align: justify;
+    
+}
+
+.head-icon:hover{
+    color: #7a6cc8;
+   
+}
+
+.tamanho-cinza{
+    align-items: center;
+    background-color: #aba8a8bf;
+    padding: 3% 6%;
+}
+
+h3{
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+h4{
+    font-size: 14px;
+    text-align: center;
+    
+}
+
+/* Dados finais */
+
+.tamanhopadding-Color{
+    text-align: center;
+    background-color: #8e8b8bbf;
+    padding: 1% 8%;
+}
+.icon-layout{
+    padding: 10px;
+}
